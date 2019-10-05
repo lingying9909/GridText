@@ -1,0 +1,1 @@
+A grid input style for edittext.
