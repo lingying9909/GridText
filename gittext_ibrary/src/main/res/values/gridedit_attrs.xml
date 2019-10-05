@@ -1,0 +1,21 @@
+<resources>
+    <declare-styleable name="GridEditText">
+        <attr name="spacingSizes" format="reference|integer|string" />
+        <attr name="splitLines" format="reference|string" />
+        <attr name="charBackgrounds" format="reference|color|string" />
+        <attr name="charTextColors" format="reference|color|string" />
+        <attr name="charTextSizes" format="reference|dimension|string" />
+        <attr name="charTextTypefaces" format="reference|enum|string">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+        </attr>
+        <attr name="charTextStyles" format="reference|string">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="gridNum" format="integer" />
+    </declare-styleable>
+</resources>

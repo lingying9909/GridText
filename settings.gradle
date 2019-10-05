@@ -1,0 +1,2 @@
+include ':app', ':gittext_ibrary'
+rootProject.name='GitText-master'
